@@ -33,7 +33,7 @@ df_adi_small = adi[["ZIPID", "ADI_NATRANK",]]
 print(df_adi_small)
 
 
-###merging selected columns from both datasets
+###merging selected columns from both datasets. could not proceed beyond this section.
 combined_df = df_adi_small.merge(df_sparcs_small, how="left", left_on="HEALTH_SERVICE_AREA", right_on="ZIPID")
 
 
